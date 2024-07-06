@@ -32,7 +32,7 @@ jobs:
     
     - name: Fix image name
       run: |
-        mv RXPD recovery.img 
+        mv RXPd recovery.img 
         
     - name: Patch Process-1
       run: |
